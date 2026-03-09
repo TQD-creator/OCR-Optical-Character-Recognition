@@ -1,0 +1,22 @@
+# Datasets
+data/
+
+# Model Checkpoints and Outputs
+layoutlm_final_model/
+layoutlm_sroie_tuning/
+layoutlm_tune_checkpoint/
+
+# Virtual Environments
+venv/
+src/
+setup_project.py
+train.py
+# Ignore all model weights and large binary files
+*.safetensors
+*.pth
+*.bin
+*.h5
+saved_bert_model/
+saved_layoutlm_model/saved_bert_model/
+saved_layoutlm_model/
+*.safetensors
